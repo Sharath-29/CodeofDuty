@@ -16,3 +16,28 @@
     margin-left: 19vw;
   }
 }
+
+@media only screen and (max-width: 430px) {
+  .dough {
+    margin-left: -30px;
+  }
+  .icing {
+    margin-left: 2px;
+  }
+  .card-group {
+    width: 15em;
+  }
+  .p2 {
+    margin-left: 100px;
+  }
+  .tip-button {
+    width: 4.5em;
+  }
+  .card-group1 {
+    width: 8.5em;
+  }
+  .card-input1 {
+    margin-left: 0px;
+    width: 4.5em;
+  }
+}
