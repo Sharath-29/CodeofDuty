@@ -1,0 +1,18 @@
+@media only screen and (max-width: 740px) {
+  .container {
+    height: 900px;
+  }
+  .icing {
+    margin-top: -17em;
+    margin-left: 34px;
+  }
+  .card-group1 {
+    width: 42vw;
+  }
+  .p1 {
+    margin-top: -14vw;
+  }
+  .p2 {
+    margin-left: 19vw;
+  }
+}

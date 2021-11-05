@@ -1,0 +1,205 @@
+body {
+  background-color: #b6bde0;
+}
+.container {
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  width: 100%;
+  max-width: 900px;
+  height: 460px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 9px;
+  overflow: hidden;
+  margin-top: 4.5em;
+  font-weight: 400, 500, 700;
+}
+.icing,
+.dough {
+  margin-top: -35px;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Space Mono", monospace;
+}
+.icing {
+  margin-top: 29px;
+  width: 400px;
+  height: 400px;
+  background: #4852a3;
+  color: white;
+  border-radius: 20px;
+  margin-left: 18px;
+}
+.dough {
+  width: 450px;
+  padding-left: 36px;
+  color: #4852a3;
+  font-family: "Space Mono", monospace;
+}
+.order {
+  flex-grow: 1;
+  padding: 20px 0;
+  margin: 20px 0;
+  border: 1px solid white;
+  border-color: white transparent;
+}
+.order li {
+  display: flex;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 400, 500, 700;
+}
+.total {
+  font-size: 24px;
+  font-weight: 400, 500, 700;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -15px;
+  flex-grow: 1;
+}
+.inputs {
+  flex-grow: 1;
+}
+.buttons {
+  width: 100%;
+}
+.row {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.column {
+  width: 100%;
+}
+.column:not(:last-child) {
+  margin-right: 10px;
+}
+.label,
+.text-input {
+  float: left;
+  display: block;
+  clear: both;
+}
+.label {
+  font-size: 24px;
+  margin-bottom: 0.2em;
+  font-weight: 400, 500, 700;
+  white-space: nowrap;
+}
+.text-input {
+  box-sizing: border-box;
+  font-weight: 400, 500, 700;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  font-family: "Space Mono", monospace;
+  background: white;
+  border: 1px solid rgba(144, 81, 14, 0.4);
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1) inset;
+}
+
+.name-group {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+.order-button {
+  margin-top: 45px;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 400, 500, 700;
+  color: #4852a3;
+  background: #f4902a;
+  border: 1px solid rgba(144, 81, 14, 0.3);
+  box-shadow: 0 2px 2px rgba(144, 81, 14, 0.1);
+  border-radius: 10px;
+  transition: background 0.1s, color 0.1s, border-color 0.1s;
+}
+.tip-button {
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 24px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400, 500, 700;
+  color: white;
+  background: #4852a3;
+  border: 1px solid rgba(144, 81, 14, 0.3);
+  box-shadow: 0 2px 2px rgba(144, 81, 14, 0.1);
+  border-radius: 5px;
+  transition: background 0.1s, color 0.1s, border-color 0.1s;
+}
+.wh:hover {
+  background: #f4902a;
+  color: white;
+  border-color: transparent;
+}
+.tips {
+  width: 5em;
+}
+#card {
+  background-image: url("../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+#people {
+  background-image: url("../images/icon-person.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  margin-top: -15px;
+}
+
+.p {
+  margin-top: 2px;
+  color: #f4902a;
+}
+.h {
+  font-size: 3em;
+  letter-spacing: 30px;
+  color: #4852a3;
+  font-family: "Space Mono", monospace;
+}
+.custom {
+  background-color: white;
+  color: gray;
+}
+.n {
+  margin-top: 3px;
+}
+.h1 {
+  margin-top: -78px;
+}
+.ta {
+  white-space: nowrap;
+}
+.price {
+  margin-top: -8vw;
+  margin-left: 3em;
+  color: #f4902a;
+  position: absolute;
+}
+.price1 {
+  margin-left: 9vw;
+  color: #f4902a;
+}
+.card-group1 {
+  width: 13vw;
+}
+.pi {
+  margin-top: -50px;
+}
