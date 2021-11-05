@@ -40,4 +40,15 @@
     margin-left: 0px;
     width: 4.5em;
   }
+  .icing {
+    width: 360px;
+    margin-left: 18px;
+  }
+  .p1 {
+    margin-left: -40px;
+    margin-top: -75px;
+  }
+  .p2 {
+    margin-left: 60px;
+  }
 }
